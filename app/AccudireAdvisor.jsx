@@ -375,14 +375,14 @@ export default function AccudireAdvisor() {
         </div>
       </header>
 
-      <main style={{ maxWidth: 900, margin: '0 auto', padding: '32px 20px' }}>
+      <main style={{ maxWidth: 1100, margin: '0 auto', padding: '32px 20px' }}>
 
         {/* === FORM === */}
         {page === 'form' && (
           <div style={{ maxWidth: 600, margin: '0 auto' }}>
             <div style={{ textAlign: 'center', marginBottom: 32 }}>
               <h1 style={{ fontSize: 32, fontWeight: 800, color: C.text, marginBottom: 12 }}>
-                Ti aiutiamo a prenderti cura<br /><span style={{ color: C.accent }}>di chi ami</span>
+                Ti aiutiamo a prenderti cura <span style={{ color: C.accent }}>di chi ami</span>
               </h1>
               <p style={{ color: C.textMedium, fontSize: 16 }}>Rispondi a poche domande e troveremo insieme la soluzione migliore</p>
             </div>
