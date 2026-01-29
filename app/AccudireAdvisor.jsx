@@ -369,7 +369,7 @@ export default function AccudireAdvisor() {
     <div style={{ minHeight: '100vh', backgroundColor: C.bg, fontFamily: "'Nunito', system-ui, sans-serif" }}>
       
       <header style={{ backgroundColor: C.card, borderBottom: `1px solid ${C.border}`, padding: '12px 24px', position: 'sticky', top: 0, zIndex: 100 }}>
-        <div style={{ maxWidth: 900, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div style={{ maxWidth: 900, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <a href="https://www.accudire.it"><img src={LOGO} alt="Accudire.it" style={{ height: 48 }} /></a>
           {page === 'results' && <button onClick={reset} style={{ color: C.accent, background: 'none', border: 'none', cursor: 'pointer', fontWeight: 600 }}>← Nuova ricerca</button>}
         </div>
